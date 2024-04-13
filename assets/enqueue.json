@@ -1,0 +1,21 @@
+{
+    "styles": [
+        {
+            "handle": "leaflet-css",
+            "src": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+            "deps": []
+        }
+    ],
+    "scripts": [
+        {
+            "handle": "leaflet-js",
+            "src": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+            "deps": []
+        },
+        {
+            "handle": "vos-tm-js",
+            "src": "build/main.js",
+            "deps": []
+        }
+    ]
+}
