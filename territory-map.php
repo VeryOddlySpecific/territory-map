@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Territory Map
  * Description: A plugin to display a map of territories
- * Version: 1.0
+ * Version: 2.0
  * Author: Alexander Steadman
  * Author URI: github.com/VeryOddlySpecific
  * License: GPL2
@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
 // Define plugin constants
 define( 'VOS_TM_PATH', plugin_dir_path( __FILE__ ) );
 define( 'VOS_TM_URL', plugin_dir_url( __FILE__ ) );
-define( 'VOS_TM_VERSION', '1.0' );
+define( 'VOS_TM_VERSION', '2.0' );
 
 // Include the main plugin class
 require_once VOS_TM_PATH . 'includes/class-territory-map.php';
